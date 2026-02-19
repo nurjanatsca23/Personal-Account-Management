@@ -1,6 +1,12 @@
-from tests import TestUser, TestUserService, TestUserUtil
+<!-- How to Run -->
 
-if __name__ == "__main__":
-    print(TestUser().test_user_creation())
-    print(TestUserService().test_user_service())
-    print(TestUserUtil().test_user_util())
+Run the following command:
+
+python main.py
+
+
+<!-- Sample Output -->
+
+TestUser passed successfully
+TestUserService passed successfully
+TestUserUtil passed successfully
