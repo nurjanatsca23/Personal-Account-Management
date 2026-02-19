@@ -16,7 +16,6 @@ Represents a user in the system.
 - `get_details()` – Returns formatted user information  
 - `get_age()` – Calculates and returns user age  
 
----
 
 ## UserService Class
 
@@ -34,7 +33,6 @@ Manages users using a class-level dictionary.
 - `update_user(cls, user_id, user_update)`
 - `get_number(cls)`
 
----
 
 ##  UserUtil Class
 
@@ -46,8 +44,6 @@ Provides helper utility functions.
 - `is_strong_password(password)`
 - `generate_email(name, surname, domain)`
 - `validate_email(email)`
-
----
 
 
 # Unit Testing
@@ -118,13 +114,4 @@ TestUserUtil passed successfully
 - `UserUtil` provides independent utility methods.
 - `User` represents a single user entity.
 
-
-# OOP Concepts Demonstrated
-
-✔ Encapsulation  
-✔ Class Attributes  
-✔ Class Methods  
-✔ Static Methods  
-✔ Object Interaction  
-✔ Basic Unit Testing  
 
